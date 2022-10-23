@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Mini Galaxia: Referência do Arquivo main.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Mini Galaxia<span id="projectnumber">&#160;1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhum resultado encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle"><div class="title">Referência do Arquivo main.cpp</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &quot;<a class="el" href="_sculptor_8h_source.html">Sculptor.h</a>&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
+<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Funções</h2>
+<a id="ae66f6b31b5ad750f1fe042a706a4e3d4" name="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&#160;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">    7</span>{</div>
+<div class="line"><span class="lineno">    8</span> </div>
+<div class="line"><span class="lineno">    9</span>    <a class="code hl_class" href="class_sculptor.html">Sculptor</a> miniGalaxia(200,200,100);</div>
+<div class="line"><span class="lineno">   10</span> </div>
+<div class="line"><span class="lineno">   11</span>    <span class="comment">//FUNDO</span></div>
+<div class="line"><span class="lineno">   12</span>    miniGalaxia.setColor(0,0,0,1);</div>
+<div class="line"><span class="lineno">   13</span>    miniGalaxia.putBox(0, 1, 0, 199, 0, 40);</div>
+<div class="line"><span class="lineno">   14</span>    miniGalaxia.cutBox(0, 1, 140, 199, 0, 40);</div>
+<div class="line"><span class="lineno">   15</span> </div>
+<div class="line"><span class="lineno">   16</span>    <span class="comment">//SOL</span></div>
+<div class="line"><span class="lineno">   17</span>    miniGalaxia.setColor(25,76,130,1);</div>
+<div class="line"><span class="lineno">   18</span>    miniGalaxia.putSphere(25,150,17.5,16);</div>
+<div class="line"><span class="lineno">   19</span> </div>
+<div class="line"><span class="lineno">   20</span>    <span class="comment">//Planeta 1 - MERCURIO</span></div>
+<div class="line"><span class="lineno">   21</span>    miniGalaxia.setColor(23,3,6,1);</div>
+<div class="line"><span class="lineno">   22</span>    miniGalaxia.putSphere(25,120,17.5,2);</div>
+<div class="line"><span class="lineno">   23</span> </div>
+<div class="line"><span class="lineno">   24</span>    <span class="comment">//Planeta 2 - VENUS</span></div>
+<div class="line"><span class="lineno">   25</span>    miniGalaxia.setColor(25,75,130,1);</div>
+<div class="line"><span class="lineno">   26</span>    miniGalaxia.putSphere(25,110,17.5,3);</div>
+<div class="line"><span class="lineno">   27</span> </div>
+<div class="line"><span class="lineno">   28</span>    <span class="comment">//Planeta 3 - TERRA</span></div>
+<div class="line"><span class="lineno">   29</span>    miniGalaxia.setColor(190,200,34,1);</div>
+<div class="line"><span class="lineno">   30</span>    miniGalaxia.putSphere(25,100,17.5,3.5);</div>
+<div class="line"><span class="lineno">   31</span>    miniGalaxia.cutSphere(25,100,17.5,1.5);</div>
+<div class="line"><span class="lineno">   32</span> </div>
+<div class="line"><span class="lineno">   33</span>    <span class="comment">//Planeta 4 - MARTE</span></div>
+<div class="line"><span class="lineno">   34</span>    miniGalaxia.setColor(25,85,190,1);</div>
+<div class="line"><span class="lineno">   35</span>    miniGalaxia.putSphere(25,85,17.5,2);</div>
+<div class="line"><span class="lineno">   36</span> </div>
+<div class="line"><span class="lineno">   37</span>    <span class="comment">//Planeta 5 - JUPITER</span></div>
+<div class="line"><span class="lineno">   38</span>    miniGalaxia.setColor(25,80,130,1);</div>
+<div class="line"><span class="lineno">   39</span>    miniGalaxia.putSphere(25,70,17.5,7);</div>
+<div class="line"><span class="lineno">   40</span> </div>
+<div class="line"><span class="lineno">   41</span>    <span class="comment">//Planeta 6 - SATURNO E SEU ANEL</span></div>
+<div class="line"><span class="lineno">   42</span>    miniGalaxia.setColor(25,24,145,1);</div>
+<div class="line"><span class="lineno">   43</span>    miniGalaxia.putEllipsoid(25,50,17.5, 9, 9, 1);</div>
+<div class="line"><span class="lineno">   44</span>    miniGalaxia.cutEllipsoid(25,50,17.5, 8, 8, 1);</div>
+<div class="line"><span class="lineno">   45</span>    miniGalaxia.putSphere(25,50,17.5,5);</div>
+<div class="line"><span class="lineno">   46</span> </div>
+<div class="line"><span class="lineno">   47</span>    <span class="comment">//Planeta 7 - URANO</span></div>
+<div class="line"><span class="lineno">   48</span>    miniGalaxia.setColor(255,60,71,1);</div>
+<div class="line"><span class="lineno">   49</span>    miniGalaxia.putSphere(25,30,17.5,5);</div>
+<div class="line"><span class="lineno">   50</span> </div>
+<div class="line"><span class="lineno">   51</span>    <span class="comment">//Planeta 8 - NETUNO</span></div>
+<div class="line"><span class="lineno">   52</span>    miniGalaxia.setColor(255,0,6,1);</div>
+<div class="line"><span class="lineno">   53</span>    miniGalaxia.putSphere(25,10,17.5,5);</div>
+<div class="line"><span class="lineno">   54</span> </div>
+<div class="line"><span class="lineno">   55</span>    miniGalaxia.writeOFF((<span class="keyword">const</span> <span class="keywordtype">char</span>*)<span class="stringliteral">&quot;miniGalaxia.off&quot;</span>);</div>
+<div class="line"><span class="lineno">   56</span> </div>
+<div class="line"><span class="lineno">   57</span>    cout &lt;&lt; <span class="stringliteral">&quot;OK!&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">   58</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   59</span> </div>
+<div class="line"><span class="lineno">   60</span>}</div>
+<div class="ttc" id="aclass_sculptor_html"><div class="ttname"><a href="class_sculptor.html">Sculptor</a></div><div class="ttdef"><b>Definition:</b> Sculptor.h:14</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+</small></address>
+</body>
+</html>
